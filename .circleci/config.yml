@@ -32,4 +32,4 @@ workflows:
       - validate
       - build-image:
           requires:
-            - validate 
+            - validate
